@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+
+    /* First-font */
+    /* font-family: 'Croissant One', cursive; */
+    /* First-font     */
+    /* font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive; */
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* ========NAVBAR CSS=========== */
+
+.navbar {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-family: 'Croissant One', cursive;
+    text-underline-offset: 0.2rem;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* ===========HOME CONTENT CSS======= */
+
+
+.intro {
+    z-index: -1;
+    width: 99.99%;
+    opacity: 30%;
+    position: absolute;
+}
+
+@media screen and (max-width:600px) {
+
+    .intro {
+        display: none;
+    }
+
+}
+
+.home-content {
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+    text-align: center;
+    margin-top: 17rem;
+    margin-bottom: 28rem;
+    font-size: 1.8rem;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.home-content h1:hover {
+    transform: scale(1.1);
+    transition: 0.9s ease;
+}
+
+.home-content a {
+    text-decoration: none;
+    transition: 0.9s ease;
+}
+
+.home-content a:hover {
+    color: red;
+}
+
+/* ANIME SECTION CSS */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading-text {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Croissant One', cursive;
+    cursor: pointer;
+}
+
+.heading-text:hover {
+    color: red;
+    transition: 0.4s ease;
+}
+
+.heading-text::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.heading p {
+    font-size: 18px;
+    color: cadetblue;
+    margin-bottom: 35px;
+}
+
+/* ============= ABOUT============== */
+.naruto {
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.naruto-banner-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.naruto-banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.naruto-banner-img:hover {
+    transform: scale(1.2);
+}
+
+.about-naruto {
+    flex: 1;
+}
+
+.about-naruto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+.about-naruto p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+.about-naruto .more-naruto {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    font-family: 'Croissant One', cursive;
+}
+
+.about-naruto .more-naruto:hover {
+    background-color: rgb(155, 36, 36);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* ONE-PIECE SECTION */
+.one-piece {
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.one-piece-banner-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.one-piece-banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.one-piece-banner-img:hover {
+    transform: scale(1.2);
+}
+
+.about-one-piece {
+    flex: 1;
+}
+
+.about-one-piece h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+.about-one-piece p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+.about-one-piece .more-one-piece {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    font-family: 'Croissant One', cursive;
+}
+
+.about-one-piece .more-one-piece:hover {
+    background-color: rgb(155, 36, 36);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* JUJUTSU KAISEN SECTION  */
+.jujutsu-kaisen {
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.jujutsu-kaisen-banner-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.jujutsu-kaisen-banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.jujutsu-kaisen-banner-img:hover {
+    transform: scale(1.2);
+}
+
+.about-jujutsu-kaisen {
+    flex: 1;
+}
+
+.about-jujutsu-kaisen h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+.about-jujutsu-kaisen p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+.about-jujutsu-kaisen .more-jujutsu-kaisen {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    font-family: 'Croissant One', cursive;
+}
+
+.about-jujutsu-kaisen .more-jujutsu-kaisen:hover {
+    background-color: rgb(155, 36, 36);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* ATTACK ON TITAN SECTION  */
+.attack-on-titan {
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.attack-on-titan-banner-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.attack-on-titan-banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.attack-on-titan-banner-img:hover {
+    transform: scale(1.2);
+}
+
+.about-attack-on-titan {
+    flex: 1;
+}
+
+.about-attack-on-titan h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+.about-attack-on-titan p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+.about-attack-on-titan .more-attack-on-titan {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    font-family: 'Croissant One', cursive;
+}
+
+.about-attack-on-titan .more-attack-on-titan:hover {
+    background-color: rgb(155, 36, 36);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* CONTACT SECTION CSS */
+
+/* UP ARROW CSS */
+
+.up-arrow {
+    background-color: rgb(157, 155, 155);
+    margin-top: 5rem;
+    border-radius: 10px;
+    width: 2.5rem;
+    padding: 8px;
+    float: right;
+    margin-right: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.up-arrow:hover {
+    transform: scale(1.2);
+    background-color: rgb(215, 213, 213);
+}
+
+/* FOOTER SECTION CSS */
+#footer {
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.foot {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    background-color: rgb(61, 60, 60);
+    padding: 2px;
+}
+
+/* MORE ANIME SECTION CSS */

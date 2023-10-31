@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEW ANIME CHARACTERS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+
+<!-- Second Font  Family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kenia&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="naruto-intro">
+        <source src="video/naruto-intro.mp4" type="video/mp4">
+    </video>
+    <section id="anime">
+       
+        <div class="heading">
+            <h1 class="heading-text">FEW CHARACTERS</h1>
+
+            <!-- CAN BE USED FOR ANY SUBTITLE -->
+
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, architecto fugiat. Magnam voluptatum nobis quos enim, distinctio animi dolor hic.</p> -->
+
+        </div>
+        <div class="container">
+            <div class="naruto">
+            <section class="about">
+                <div>
+                    <img src="img/naruto/narutochar.jfif" alt=""  class="naruto-char-img">
+                </div>
+                <div class="about-naruto">
+                    <h2>NARUTO THE HOKAGE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus sequi tenetur aliquid, tempora adipisci iusto totam id obcaecati mollitia perspiciatis reprehenderit doloremque, laudantium eum consequuntur dicta ducimus ullam minima. Quisquam ut ullam quo nam tempore minus corporis numquam provident tenetur, adipisci iste repellendus? Quaerat voluptatibus optio vel modi rem saepe sapiente excepturi a qui atque?</p>
+                </div>
+            </section>
+            
+        </div>
+            <div class="kakashi">
+            <section class="about">
+                <div>
+                    <img src="img/naruto/kakashi.jfif" alt=""  class="kakashi-char-img">
+                </div>
+                <div class="about-kakashi">
+                    <h2>KAKASHI THE GREATEST LEADER</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus sequi tenetur aliquid, tempora adipisci iusto totam id obcaecati mollitia perspiciatis reprehenderit doloremque, laudantium eum consequuntur dicta ducimus ullam minima. Quisquam ut ullam quo nam tempore minus corporis numquam provident tenetur, adipisci iste repellendus? Quaerat voluptatibus optio vel modi rem saepe sapiente excepturi a qui atque?</p>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="madara">
+            <section class="about">
+                <div>
+                    <img src="img/naruto/Madara.jfif" alt=""  class="madara-char-img">
+                </div>
+                <div class="about-madara">
+                    <h2>MADARA THE GHOST OF UCHIHA</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus sequi tenetur aliquid, tempora adipisci iusto totam id obcaecati mollitia perspiciatis reprehenderit doloremque, laudantium eum consequuntur dicta ducimus ullam minima. Quisquam ut ullam quo nam tempore minus corporis numquam provident tenetur, adipisci iste repellendus? Quaerat voluptatibus optio vel modi rem saepe sapiente excepturi a qui atque?</p>
+                </div>
+            </section>
+        </div>
+
+        
+        </div>
+    
+    </section>
+
+    <div class="back-icon">
+        <a href="index.html">HOME</a>
+    </div>
+
+    <section id="footer">
+        <p class="foot">Author: CREATOR SHIVAM</p>
+        <p class="foot"><a href="mailto:creatorshivam18@gmail.com" class="foot">creatorshivam18@gmail.com</a></p>
+    </section>
+</body>
+</html>
+
+<style>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+   
+/* First-font */
+    /* font-family: 'Croissant One', cursive; */
+/* First-font     */
+    /* font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive; */
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* VIDEO CSS */
+
+.naruto-intro{
+    overflow: hidden;
+    width: 99.9%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 30%;
+}
+/* VIDEO CSS END  */
+
+@media (min-aspect-ration: 16/9){
+    .naruto-intro{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ration: 16/9){
+    .naruto-intro{
+        width: auto;
+        height: 100%;
+    }
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading-text{
+    text-decoration: underline;
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Croissant One', cursive;
+    cursor: pointer;
+}
+.heading-text:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.heading-text::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+}
+.heading p{
+    font-size: 18px;
+    color: cadetblue;
+    margin-bottom: 35px;
+}
+.naruto{
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.naruto-char-img{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.naruto-char-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.naruto-char-img:hover{
+    transform: scale(1.2);
+}
+.about-naruto{
+    flex: 1;
+}
+.about-naruto h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;    
+    padding-top: 7px;
+}
+.about-naruto p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+
+/* KAKASHI SENSEI SECTION */
+.kakashi{
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kakashi-char-img{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.kakashi-char-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.kakashi-char-img:hover{
+    transform: scale(1.2);
+}
+.about-kakashi{
+    flex: 1;
+}
+.about-kakashi h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+.about-kakashi p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+/* MADARA UCHIHA SECTION  */
+.madara{
+    margin-top: 4rem;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Kenia', cursive;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.madara-char-img{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.madara-char-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.madara-char-img:hover{
+    transform: scale(1.2);
+}
+.about-madara{
+    flex: 1;
+}
+.about-madara h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: rgb(197, 31, 31);
+    cursor: pointer;
+    padding-top: 7px;
+}
+.about-madara p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: rgb(204, 181, 181);
+}
+
+
+
+/* CONTACT SECTION CSS */
+
+/* HOME ICON CSS */
+.back-icon{
+    background-color: rgb(90, 87, 87);
+    margin-top: 5rem;
+    border-radius: 12px;
+    width: rem;
+    padding: 8px;
+    float: right;
+    margin-right: 1.5rem;
+}
+.back-icon a{
+    text-decoration: none;
+    background-color: rgb(90, 87, 87);
+    color: rgb(255, 255, 255);
+    font-family: 'Croissant One', cursive;
+}
+
+/* FOOTER SECTION CSS */
+#footer{
+    text-align: center;
+    margin-top:10rem ;
+    padding-top: 1rem;
+    font-family: 'Croissant One', cursive;
+}
+.foot{
+    display: block;
+    cursor: pointer;
+    background-color:rgb(61, 60, 60) ;
+    padding: 2px;
+}
+</style>
